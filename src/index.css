@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 3px; /* Adjust scrollbar width */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Scrollbar thumb color */
+  border-radius: 10px; /* Round the scrollbar edges */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: transparent; /* Scrollbar track color */
+}
